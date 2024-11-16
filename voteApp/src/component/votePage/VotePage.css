@@ -1,0 +1,27 @@
+.image{
+    width:15vw;
+    height: 15vh;
+}
+.container1{
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    padding: 1rem;
+   border: 0.5rem solid rgb(94, 8, 8);
+  
+}
+.label1 ,.button1{
+    font-size: x-large;
+    width: 12vw;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+}
+.button1{
+    background-color:  rgb(94, 8, 8);
+    color: aliceblue;
+}
