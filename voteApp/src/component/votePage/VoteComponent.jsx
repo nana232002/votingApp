@@ -5,9 +5,13 @@ export default function VoteComponent(props) {
    <>
     <div className='container1'>
    <label className='label1'>Vote : 0</label>
-   <img className='image' src={props.src}/>
+   <img className='img' src={props.src}/>
    <label className='label1' >{props.name}</label>
-   <button className='button1'>vote</button>
+   <button className='button1' onClick={()=>{
+    console.log("vote")
+    
+     props.num +1 
+   }} >Vote</button>
    </div>
    </>
   )
