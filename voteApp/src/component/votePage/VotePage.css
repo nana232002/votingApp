@@ -37,6 +37,8 @@
     align-items: center;
     /* background-color: rgb(108, 30, 30); */
     border-bottom: 0.25rem solid  rgb(94, 8, 8);
+    border-top: 0.25rem solid  rgb(94, 8, 8);
+  
 }
 #select {
     width:10vw;
@@ -53,6 +55,7 @@
 .label2{
     font-size: xxx-large;
     font-weight: bolder;
+  
 }
 .votingcharacter{
     display: flex;

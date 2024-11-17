@@ -1,16 +1,18 @@
-import Login from "./component/LoginPage/Login"
-import VoteComponent from "./component/votePage/VoteComponent"
-import VotePage from "./component/votePage/VotePage"
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import VotePage from './component/votePage/VotePage';
+import Login from "./component/LoginPage/Login";
 
-function App() {
- 
-
+export default function App() {
   return (
-    <>
-      {/* <Login/> */}
-      <VotePage/>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/vote" element={<VotePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+ReactDOM.render(<App />, document.getElementById("root"));
