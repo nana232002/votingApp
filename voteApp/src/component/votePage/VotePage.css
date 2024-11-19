@@ -62,3 +62,14 @@
     flex-direction: row;
     gap: 1rem;
 }
+    .logout{
+        font-size: large;
+        width: 7vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:  rgb(94, 8, 8);
+        color: aliceblue;
+        border-radius: 25%;
+    }

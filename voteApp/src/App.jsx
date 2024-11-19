@@ -12,6 +12,7 @@ export default function App() {
         <Route path="/vote" element={<VotePage />} />
       </Routes>
     </BrowserRouter>
+   
   );
 }
 
